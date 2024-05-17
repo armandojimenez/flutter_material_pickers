@@ -59,8 +59,8 @@ class _ScrollPickerState<T> extends State<ScrollPicker<T>> {
   @override
   Widget build(BuildContext context) {
     final ThemeData themeData = Theme.of(context);
-    TextStyle? defaultStyle = themeData.textTheme.bodyText2;
-    TextStyle? selectedStyle = themeData.textTheme.headline5
+    TextStyle? defaultStyle = themeData.textTheme.bodyMedium;
+    TextStyle? selectedStyle = themeData.textTheme.headlineSmall
         ?.copyWith(color: themeData.colorScheme.secondary);
 
     return LayoutBuilder(
